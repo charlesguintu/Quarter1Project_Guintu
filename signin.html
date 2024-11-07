@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Signup</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .forms{
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        input[type="text"], 
+        input[type="email"],
+        input[type="password"],
+        input[type="search"],
+        input[type="date"],
+        textarea,
+        select{
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"]{
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background-color: black;
+            color: whitesmoke;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="reset"]{
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background-color: whitesmoke;
+            color: orange;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="reset"]:hover,
+        input[type="submit"]:hover{
+            background-color:dimgrey;
+        }
+
+        .hi{
+            text-align: center;}
+        .img{
+            height: 150px;
+            width: auto;
+            image-orientation: center;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="hi">Signup</h1>
+    <br>
+    <center><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_nike_principal.jpg"></center>
+    <div class="forms">
+   
+        <label for="Fullname">Full Name:</label>
+        <input type="text" name="Collector" id="Fullname">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="Email" name="Email">
+
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password">  <br>
+
+
+
+        <label for="Date">Birthday:</label>
+        <input type="date" id="Date" name="Date">
+
+
+        <label>Do you allow this site to collect your provided data?</label>
+        <input type="checkbox" id="Check" name="Check"> I agree <br> <br>
+
+         <a href="index.html"><input type="submit" value="SUBMIT"> </a>
+        
+    </div>
+        
+    
+
+</body>
+</html>
